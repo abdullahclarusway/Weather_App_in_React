@@ -4,7 +4,7 @@ const api = {
   key: process.env.REACT_APP_API_KEY,
   base: "api.openweathermap.org/data/2.5/",
 };
-
+console.log(api.key);
 function App() {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});
